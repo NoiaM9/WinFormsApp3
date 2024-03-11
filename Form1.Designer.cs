@@ -41,6 +41,7 @@
             BtnSortareWhile = new Button();
             BtnSortareFor = new Button();
             TxtNr = new TextBox();
+            label3 = new Label();
             SuspendLayout();
             // 
             // Label1
@@ -163,11 +164,21 @@
             TxtNr.Size = new Size(100, 23);
             TxtNr.TabIndex = 12;
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(798, 431);
+            label3.Name = "label3";
+            label3.Size = new Size(103, 15);
+            label3.TabIndex = 13;
+            label3.Text = "Made by Christian";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(902, 446);
+            Controls.Add(label3);
             Controls.Add(TxtNr);
             Controls.Add(BtnSortareFor);
             Controls.Add(BtnSortareWhile);
@@ -203,5 +214,6 @@
         private Button BtnSortareWhile;
         private Button BtnSortareFor;
         private TextBox TxtNr;
+        private Label label3;
     }
 }
